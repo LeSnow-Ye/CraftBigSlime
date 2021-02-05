@@ -83,12 +83,13 @@ public class GameController : MonoBehaviour
         Lost = true;
         LosingStartTime = Time.time;
 
+        /*
         try
         {
             var webClient = new WebClient();
             webClient.DownloadString("http://42.192.8.111/api/cbs?score=" + Score);
         }
-        catch { }
+        catch { }*/
     }
 
     public void Retry()
